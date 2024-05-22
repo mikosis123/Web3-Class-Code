@@ -20,7 +20,7 @@ contract CometTest is Test {
             0xAec1F48e02Cfb822Be958B68C7957156EB3F0b6e, 0x8bF5b658bdF0388E8b482ED51B14aef58f90abfD
         );
         skip(1000000);
-        deal
+        // deal
         MainContract =
             new InteractFromPool(COMP, 0xAec1F48e02Cfb822Be958B68C7957156EB3F0b6e, address(delegateCallHandler));
     }
